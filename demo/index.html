@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>apiNG Bricklayer Design Demo</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../dist/aping-design-bricklayer.min.css">
+
+    <!-- JS -->
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/apiNG/dist/aping.min.js"></script>
+
+    <script src="//cdn.jsdelivr.net/aping.plugin-flickr/latest/aping-plugin-flickr.min.js"></script>
+
+    <script src="../src/aping-design-bricklayer.js"></script>
+
+    <script src="js/aping-config.js"></script>
+    <script src="js/app.js"></script>
+
+</head>
+<body ng-app="app">
+    <div class="container">
+        <aping
+                model="social"
+                aping-flickr="[{'tags':'munich'}, {'tags':'berlin'}]">
+        </aping>
+    </div>
+
+</body>
+</html>

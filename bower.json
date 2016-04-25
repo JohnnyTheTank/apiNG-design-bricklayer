@@ -1,0 +1,30 @@
+{
+  "name": "apiNG-design-bricklayer",
+  "homepage": "https://github.com/JohnnyTheTank/apiNG-design-bricklayer",
+  "authors": [
+    "Jonathan Hornung <jonathan.hornung@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "description": "design for apiNG (bricklayer)",
+  "main": "dist/angular-design-bricklayer.min.js",
+  "moduleType": [],
+  "keywords": [
+    "aping",
+    "angularjs",
+    "rest",
+    "api",
+    "json"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "apiNG": "*",
+    "angular-bricklayer": "^1.1.0"
+  }
+}
