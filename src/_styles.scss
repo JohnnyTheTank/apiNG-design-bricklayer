@@ -1,5 +1,12 @@
 .aping-design-bricklayer {
 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:9pt;
+
+    a {
+        text-decoration: none;
+    }
+
     .box {
         margin: 10px 0;
         padding: 10px;
@@ -10,7 +17,6 @@
     img {
         width: 100%;
         height: auto;
-        border: 1px solid black;
         display: block;
     }
 

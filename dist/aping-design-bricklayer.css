@@ -1,5 +1,12 @@
 /* Vendor Prefixing */
 /* Custom Functions */
+.aping-design-bricklayer {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 9pt;
+}
+.aping-design-bricklayer a {
+  text-decoration: none;
+}
 .aping-design-bricklayer .box {
   margin: 10px 0;
   padding: 10px;
@@ -9,7 +16,6 @@
 .aping-design-bricklayer img {
   width: 100%;
   height: auto;
-  border: 1px solid black;
   display: block;
 }
 @media screen and (min-width: 1900px) {
