@@ -3,5 +3,8 @@
 
 Masonry design for [apiNG](https://github.com/JohnnyTheTank/apiNG) using [angular-bricklayer](https://github.com/JohnnyTheTank/angular-bricklayer)
 
+# demo
+[Demo with flickr images](https://rawgit.com/JohnnyTheTank/apiNG-design-bricklayer/master/demo/index.html)
+
 # documentation
 _docs coming soon_
