@@ -1,3 +1,46 @@
 .aping-design-bricklayer {
 
+    .box {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid black;
+        overflow:hidden;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border: 1px solid black;
+        display: block;
+    }
+
+    @media screen and (min-width: 1900px) {
+        .bricklayer-column-sizer {
+            width: 15%;
+        }
+    }
+
+    @media screen and (min-width: 1200px) and (max-width: 1899px) {
+        .bricklayer-column-sizer {
+            width: 20%;
+        }
+    }
+
+    @media screen and (min-width: 900px) and (max-width: 1199px) {
+        .bricklayer-column-sizer {
+            width: 25%;
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 899px) {
+        .bricklayer-column-sizer {
+            width: 33.3%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .bricklayer-column-sizer {
+            width: 50%;
+        }
+    }
 }

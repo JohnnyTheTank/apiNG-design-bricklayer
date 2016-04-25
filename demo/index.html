@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>apiNG Bricklayer Design Demo</title>
 
     <!-- CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bricklayer/0.4.1/bricklayer.min.css">
     <link rel="stylesheet" href="../dist/aping-design-bricklayer.min.css">
 
     <!-- JS -->
-    <script src="../bower_components/angular/angular.min.js"></script>
-    <script src="../bower_components/apiNG/dist/aping.min.js"></script>
-
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+    <script src="//cdn.jsdelivr.net/aping/latest/aping.min.js"></script>
     <script src="//cdn.jsdelivr.net/aping.plugin-flickr/latest/aping-plugin-flickr.min.js"></script>
-
-    <script src="../src/aping-design-bricklayer.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bricklayer/0.4.1/bricklayer.min.js"></script>
+    <script src="//cdn.jsdelivr.net/angular.bricklayer/1.1.0/angular-bricklayer.min.js"></script>
+    <script src="../dist/aping-design-bricklayer.min.js"></script>
 
     <script src="js/aping-config.js"></script>
     <script src="js/app.js"></script>
 
 </head>
 <body ng-app="app">
-    <div class="container">
-        <aping
-                model="social"
-                aping-flickr="[{'tags':'munich'}, {'tags':'berlin'}]">
-        </aping>
-    </div>
+<div class="container">
+    <h1><a href="https://github.com/JohnnyTheTank/apiNG" target="_blank">apiNG</a> design for <a href="https://github.com/JohnnyTheTank/apiNG-design-bricklayer" target="_blank">angular-bricklayer</a></h1>
+    <aping
+            model="social"
+            order-by="$RANDOM"
+            aping-flickr="[{'tags':'munich'}, {'tags':'food'}]">
+    </aping>
+</div>
 
 </body>
 </html>
