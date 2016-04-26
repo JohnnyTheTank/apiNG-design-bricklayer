@@ -1,17 +1,17 @@
 <div class="aping-design-bricklayer">
     <div ng-controller="apingBricklayerDesignController">
-        <h3><a href="https://github.com/JohnnyTheTank/apiNG-design-bricklayer"><- Back</a></h3>
+        <h3><a href="https://github.com/JohnnyTheTank/apiNG-design-bricklayer">< Back</a></h3>
         <h1><a href="https://github.com/JohnnyTheTank/apiNG" target="_blank">apiNG</a> design for
             <a href="https://github.com/JohnnyTheTank/apiNG-design-bricklayer" target="_blank">angular-bricklayer</a>
         </h1>
 
         <div class="bricklayer">
-            <div class="box" bricklayer-append ng-repeat="item in results">
+            <div class="box" bricklayer-append ng-repeat="item in results" ng-cloak>
                 <a href="{{item.post_url}}" target="_blank"><img ng-src="{{item.img_url}}" alt="{{item.caption}}"></a>
 
                 <div ng-if="item.caption">
                     <br>
-                    {{item.caption}}
+                    <strong>{{item.caption}}</strong>
                 </div>
             </div>
         </div>
